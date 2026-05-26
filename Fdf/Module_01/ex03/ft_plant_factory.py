@@ -6,7 +6,7 @@
 #    By: equintas <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/05/26 15:10:47 by equintas          #+#    #+#              #
-#    Updated: 2026/05/26 15:53:53 by equintas         ###   ########.fr        #
+#    Updated: 2026/05/26 15:55:06 by equintas         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -37,5 +37,4 @@ def ft_plant_factory():
         
 if __name__ == "__main__":
     ft_plant_factory()
-        
         
