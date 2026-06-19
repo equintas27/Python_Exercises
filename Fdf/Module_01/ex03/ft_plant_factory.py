@@ -6,23 +6,11 @@
 #    By: equintas <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/05/26 15:10:47 by equintas          #+#    #+#              #
-#    Updated: 2026/05/26 15:55:06 by equintas         ###   ########.fr        #
+#    Updated: 2026/06/19 17:58:57 by equintas         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-class Planta:
-    def __init__(self, name, height, age):
-        self.name = name
-        self.height = height
-        self.age = age
-
-    def show(self):
-        print(f"Created: {self.name}, {self.height} cm, {self.age} days old")
-    def grow(self):
-        self.height += 0.8
-        self.height = round(self.height, 1)
-    def age_old(self):
-        self.age += 1
+from classes import Planta
 
 def ft_plant_factory():
     plantas = [
