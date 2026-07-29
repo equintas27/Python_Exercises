@@ -1,0 +1,4 @@
+INT_MAX_CONSTANT = 16
+
+print(type(INT_MAX_CONSTANT))
+print(INT_MAX_CONSTANT)
