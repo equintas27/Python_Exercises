@@ -1,5 +1,7 @@
 from decimal import Decimal
 
+import math
+
 res = Decimal('0.1') + Decimal('0.2')
 print (res)
 
@@ -17,3 +19,5 @@ print(type(z))
 
 a = 23e-4
 print(a)
+
+f = 
